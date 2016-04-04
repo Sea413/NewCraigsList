@@ -1,0 +1,41 @@
+{
+  "housings":
+  [
+    {
+      "user": "david",
+      "title": "1 bedroom",
+      "body": "Renting house in the shire please reply.",
+      "timestamp": 1459786758604,
+      "location": "Shire",
+      "bedrooms": 2,
+      "bathrooms": 5,
+      "rent": 546
+    }
+  ],
+  "jobs":
+  [
+    {
+      "user": "sean",
+      "title": "Comic book artist",
+      "body": "I am making th nest comics I need help",
+      "timestamp": 1459786758667,
+      "location": "Asgard",
+      "industry": "Publishing",
+      "position": "Best Artist",
+      "salary": "567 an hour",
+      "hours": "70"
+    }
+  ],
+  "forsales":
+  [
+    {
+      "user": "Rob Stark",
+      "title": "Looking to sell wedding plates",
+      "body": "Short marriage. :( Plates were never used. Good Price!",
+      "timestamp": 1459786758345,
+      "location": "The Crossing",
+      "price": 658,
+      "condition": "new, and slightly red"
+    }
+  ]
+}
