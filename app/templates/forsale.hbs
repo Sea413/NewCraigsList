@@ -1,4 +1,5 @@
 {{#each model as |listing|}}
-  {{listing.title}}
-  {{listing.body}}
+  <li>{{#link-to 'listing' listing.id }}{{listing.title}}{{/link-to}}</li>
 {{/each}}
+
+{{new-forsale saveListing="saveListing"}}

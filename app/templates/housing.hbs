@@ -1,4 +1,6 @@
 {{#each model as |listing|}}
-  {{listing.title}}
-  {{listing.body}}
+  <li>{{listing.title}}</li>
 {{/each}}
+
+
+{{new-housing saveListing="saveListing"}}

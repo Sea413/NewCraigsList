@@ -1,0 +1,40 @@
+{{#if addNewListing}}
+  <div>
+    <form>
+      <div class="form-group">
+        <label for="user">Contact Name</label>
+        {{input value=user id="user"}}
+      </div>
+      <div class="form-group">
+        <label for="title">Title</label>
+        {{input value=title id="title"}}
+      </div>
+      <div class="form-group">
+        <div>
+          <label for="body">Body</label>
+        </div>
+        {{textarea class="big" value=body id="body"}}
+      </div>
+      <div class="form-group">
+        <label for="location">Location</label>
+        {{input value=location id="location"}}
+      </div>
+      <div class="form-group">
+        <label for="bedrooms">Bedrooms</label>
+        {{input value=bedrooms id="bedrooms"}}
+      </div>
+      <div class="form-group">
+        <label for="bathrooms">Bathrooms</label>
+        {{input value=bathrooms id="bathrooms"}}
+      </div>
+      <div class="form-group">
+        <label for="rent">Rent</label>
+        {{input value=rent id="rent"}}
+      </div>
+      <button {{action 'saveListing'}}>Save</button>
+      <button {{action 'hideForm'}}>Cancel</button>
+    </form>
+  </div>
+{{else}}
+  <button {{action 'newListingForm'}}>New Listing</button>
+{{/if}}
